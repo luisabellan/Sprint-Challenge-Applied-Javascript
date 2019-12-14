@@ -49,6 +49,7 @@ To iterate over a set of elements in the document in order to perform an action 
 
 It's a structure that will be needed in several parts of a website. We create one component to be reused in several parts of the website. Like the products on a online store like Amazon (photo, description and price of a product), or the songs playlist in Spotify (name of song, artist, album) or a set of videos on YouTube (title, screenshot of a video, number of views, etc). They look like cards.
 
+
 ### Git Set up
 
 * [ ] Fork the project into your GitHub user account
