@@ -14,30 +14,23 @@ axios
 
 
         // this probably returns a 200 status code
-        console.log(res);
+       // console.log(res);
 
         const topicList = res.data.topics
         topicList.forEach(topic => {
             const newTopicTab = TopicTab(topic)
             topics.appendChild(newTopicTab)
 
-            
+
         })
 
-            
-
-        /*  const dogList = res.data.message;
-            dogList.forEach((dog) => {
-              const newDogCard = DogCard(dog);
-              entry.appendChild(newDogCard);
-            }); */
     })
     .catch((err) => {
         // this probably returns either a 400 or 500 status code
         console.log('You hit an error: ', err);
     });
 
-    const topics = document.querySelector('.topics')
+const topics = document.querySelector('.topics')
 
 function TopicTab(topic) {
     const newTopicTab = document.createElement('div')
